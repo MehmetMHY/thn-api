@@ -1,4 +1,8 @@
-# thn-api
+<h1 align="center">The Hacker News API</h1>
+<p align="center">
+  <img width="1000" src="./assets/logo.png">
+</p>
+
 
 ## About:
 - The Hacker News (THN) is a cybersecurity news platform.
