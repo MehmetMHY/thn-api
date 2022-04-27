@@ -44,5 +44,3 @@ def get(optimal=False):
     
     return cdata
 
-
-
