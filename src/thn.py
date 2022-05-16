@@ -30,8 +30,10 @@ def get(optimal=False):
 
         # filter out article's title:
         title = line[5]
+        title = title.replace("'", '"')
         title = title[title.find('<img alt="')+len('<img alt="'):title.find('" decoding="async')]
-
+        title = title.replace('"', "'")
+        
         # filter out article's published date:
         date = line[9]
         date = date[date.find('</i>')+len('</i>'):date.find('<span><i')]
