@@ -1,3 +1,15 @@
+import sys
+
+# make sure packages are installed before doing anything!
+try:
+    import requests
+    from bs4 import BeautifulSoup
+except:
+    print("The Following 3rd Party Python3 Packages Are Needed:")
+    print("  - beautifulsoup4")
+    print("  - requests")
+    sys.exit()
+
 from src import thn
 
 # credit: https://stackoverflow.com/questions/287871/how-to-print-colored-text-to-the-terminal
