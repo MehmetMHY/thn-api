@@ -12,6 +12,7 @@
   - The GET feature grabs the following information from a single article: title, date published, link to article, and a short description of the article. 
 
 ## Notes:
+- To see examples, or just to use the terminal verison of this API, check out the examples/ directory.
 - Due to this API relying on web scrapping; if THN changes their website then the scrapping function for the GET feature might fail to scrap proper article information from the offical THN website. Due to this, this API needs to be maintained regularly.
 - After using this API for about 2 months, I only had to fix the scrapping algorithm twice. These bug fixes only took less then half an hour each to fix. Due, at the moment, maintaining this API is not too beig of an issue. 
 
